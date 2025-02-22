@@ -11,12 +11,3 @@ class FlatAdmin(admin.ModelAdmin):
     list_editable = ['new_building']
 
 admin.site.register(Flat, FlatAdmin)
-
-
-# Поля для отображения
-#
-#     Адрес квартиры
-#     Цена квартиры
-#     Новостройка
-#     Год постройки
-#     Город
