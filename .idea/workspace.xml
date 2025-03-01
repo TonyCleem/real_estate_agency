@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment=" Enable filter through new buildings on index page">
+    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment=" setup filtering in admin UI">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/property/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740818499963</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" setup filtering in admin UI">
+      <option name="closed" value="true" />
+      <created>1740818579821</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740818579821</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +139,7 @@
     <MESSAGE value=" setup Flat changelist page" />
     <MESSAGE value="fill with data field Flat.construction_year." />
     <MESSAGE value=" Enable filter through new buildings on index page" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Enable filter through new buildings on index page" />
+    <MESSAGE value=" setup filtering in admin UI" />
+    <option name="LAST_COMMIT_MESSAGE" value=" setup filtering in admin UI" />
   </component>
 </project>

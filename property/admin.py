@@ -11,4 +11,11 @@ class FlatAdmin(admin.ModelAdmin):
     list_filter = ['new_building', 'rooms_number', 'has_balcony']
 
 
+
+class ComplaintAdmin(admin.ModelAdmin):
+    raw_id_fields = ('user', 'flat')
+
+
 admin.site.register(Flat, FlatAdmin)
+admin.site.register(Complaint, ComplaintAdmin)
+
