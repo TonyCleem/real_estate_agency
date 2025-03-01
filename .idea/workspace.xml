@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment=" setup Flat changelist page">
+    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment="fill with data field Flat.construction_year.">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740817993834</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fill with data field Flat.construction_year.">
+      <option name="closed" value="true" />
+      <created>1740818181642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740818181642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -110,6 +120,7 @@
     <MESSAGE value="Customize Flat Admin." />
     <MESSAGE value="Add model field Flat.new_building" />
     <MESSAGE value=" setup Flat changelist page" />
-    <option name="LAST_COMMIT_MESSAGE" value=" setup Flat changelist page" />
+    <MESSAGE value="fill with data field Flat.construction_year." />
+    <option name="LAST_COMMIT_MESSAGE" value="fill with data field Flat.construction_year." />
   </component>
 </project>
