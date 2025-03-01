@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment="convert onwers_phonenumber">
+    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment="Normalize Flat.phonenumbers into Flat.owner_pure_phone.">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property/migrations/0008_auto_20250301_1249.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/migrations/0008_auto_20250301_1249.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740822920899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Normalize Flat.phonenumbers into Flat.owner_pure_phone.">
+      <option name="closed" value="true" />
+      <created>1740823213455</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740823213455</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,7 +183,8 @@
     <MESSAGE value="setup admin UI for likes." />
     <MESSAGE value="add field Flat.owner_pure_phone" />
     <MESSAGE value="convert onwers_phonenumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert onwers_phonenumber" />
+    <MESSAGE value="Normalize Flat.phonenumbers into Flat.owner_pure_phone." />
+    <option name="LAST_COMMIT_MESSAGE" value="Normalize Flat.phonenumbers into Flat.owner_pure_phone." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
