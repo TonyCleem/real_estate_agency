@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment=" setup filtering in admin UI">
+    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment=" add db model for complaints.">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/property/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/property/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/models.py" afterDir="false" />
     </list>
@@ -129,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740818579821</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" add db model for complaints.">
+      <option name="closed" value="true" />
+      <created>1740821273980</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740821273980</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +147,7 @@
     <MESSAGE value="fill with data field Flat.construction_year." />
     <MESSAGE value=" Enable filter through new buildings on index page" />
     <MESSAGE value=" setup filtering in admin UI" />
-    <option name="LAST_COMMIT_MESSAGE" value=" setup filtering in admin UI" />
+    <MESSAGE value=" add db model for complaints." />
+    <option name="LAST_COMMIT_MESSAGE" value=" add db model for complaints." />
   </component>
 </project>
