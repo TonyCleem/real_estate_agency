@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment="setup admin UI for likes.">
+    <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment="add field Flat.owner_pure_phone">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_estate_agency/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_estate_agency/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740821591349</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add field Flat.owner_pure_phone">
+      <option name="closed" value="true" />
+      <created>1740822456628</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740822456628</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,7 +165,8 @@
     <MESSAGE value=" setup filtering in admin UI" />
     <MESSAGE value=" add db model for complaints." />
     <MESSAGE value="setup admin UI for likes." />
-    <option name="LAST_COMMIT_MESSAGE" value="setup admin UI for likes." />
+    <MESSAGE value="add field Flat.owner_pure_phone" />
+    <option name="LAST_COMMIT_MESSAGE" value="add field Flat.owner_pure_phone" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
