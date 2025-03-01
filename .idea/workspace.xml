@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8694ab9a-0a77-4eab-b26a-e3056abc51ff" name="Changes" comment="Add model field Flat.new_building">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/property/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740817800257</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add model field Flat.new_building">
+      <option name="closed" value="true" />
+      <created>1740817874108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740817874108</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
