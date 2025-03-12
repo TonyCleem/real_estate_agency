@@ -5,7 +5,7 @@ from django.db import migrations
 
 def move_owners(apps, schema_editor):
     Flat = apps.get_model('property', 'Flat')
-    for flat in Flat.objects.all():
+    for flat in Flat.objects.all().iterator():
         owner = flat.owner
         owners_phonenumber = flat.owners_phonenumber
         owner_pure_phone = flat.owner_pure_phone
@@ -15,11 +15,7 @@ def move_owners(apps, schema_editor):
             owner=owner,
             owners_phonenumber=owners_phonenumber,
             owner_pure_phone=owner_pure_phone,
-            defaults={
-                'owner': owner,
-                'owners_phonenumber': owners_phonenumber,
-                'owner_pure_phone': owner_pure_phone
-            }
+            defaults={}
         )
 
 

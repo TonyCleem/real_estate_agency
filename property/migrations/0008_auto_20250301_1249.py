@@ -5,7 +5,7 @@ from django.db import migrations
 
 def convert_phone_number(apps, schema_editor):
     Flat = apps.get_model('property', 'Flat')
-    for flat in Flat.objects.all():
+    for flat in Flat.objects.all().iterator():
         owner_phone_number = flat.owners_phonenumber
         parsed_phone_number = phonenumbers.parse(owner_phone_number, 'RU')
 
