@@ -5,32 +5,45 @@ from phonenumber_field.modelfields import PhoneNumberField
 
 
 class Flat(models.Model):
-    owner = models.ManyToManyField('Owner', verbose_name='Владельцы', blank=True)
+    owner = models.ManyToManyField(
+        'Owner',
+        verbose_name='Владельцы',
+        blank=True)
+
     new_building = models.BooleanField(null=True, blank=True)
     created_at = models.DateTimeField(
         'Когда создано объявление',
         default=timezone.now,
         db_index=True)
 
-    description = models.TextField('Текст объявления', blank=True)
+    description = models.TextField(
+        'Текст объявления',
+        blank=True,
+        default='')
     price = models.IntegerField('Цена квартиры', db_index=True)
-
     town = models.CharField(
         'Город, где находится квартира',
         max_length=50,
-        db_index=True)
+        db_index=True,
+        blank=True,
+        default='')
     town_district = models.CharField(
         'Район города, где находится квартира',
         max_length=50,
         blank=True,
-        help_text='Чертаново Южное')
+        help_text='Чертаново Южное',
+        default='')
     address = models.TextField(
         'Адрес квартиры',
-        help_text='ул. Подольских курсантов д.5 кв.4')
+        help_text='ул. Подольских курсантов д.5 кв.4',
+        blank=True,
+        default='')
     floor = models.CharField(
         'Этаж',
         max_length=3,
-        help_text='Первый этаж, последний этаж, пятый этаж')
+        help_text='Первый этаж, последний этаж, пятый этаж',
+        blank=True,
+        default='')
 
     rooms_number = models.IntegerField(
         'Количество комнат в квартире',
@@ -69,27 +82,30 @@ class Complaint(models.Model):
         Flat,
         on_delete=models.SET_NULL,
         verbose_name='Квартира, на которую пожаловались',
-        related_name='complaints'
+        related_name='complaints',
         null=True)
     text_complaint = models.TextField(
-
         verbose_name='Текст жалобы',
-        null=True)
+        blank=True,
+        default='')
 
     def __str__(self):
         return f'{self.flat} - [{self.text_complaint}].'
 
 
 class Owner(models.Model):
-    owner = models.CharField('ФИО владельца', max_length=200, null=True, db_index=True)
-    owners_phonenumber = models.CharField('Номер владельца', max_length=20, null=True, db_index=True)
+    owner = models.CharField(
+        'ФИО владельца',
+        max_length=200,
+        blank=True,
+        default='',
+        db_index=True)
     owner_pure_phone = PhoneNumberField(
         verbose_name='Нормализованный номер владельца',
         region="RU",
         max_length=12,
         blank=True,
         db_index=True)
-
     flats = models.ManyToManyField(
         Flat,
         verbose_name='Квартиры в собственности',
@@ -98,9 +114,3 @@ class Owner(models.Model):
 
     def __str__(self):
         return f'{self.owner}.'
-
-
-
-
-
-
